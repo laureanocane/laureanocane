@@ -11,18 +11,16 @@ nav div {
 nav {
   display: flex;
   flex-direction: row; }
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none; }
-
-nav ul li {
-  display: inline-block;
-  padding: 4px 16px;
-  margin: 0px 16px;
-  position: relative;
-  font-size: 20px; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; }
+    nav ul li {
+      display: inline-block;
+      padding: 4px 16px;
+      margin: 0px 16px;
+      position: relative;
+      font-size: 20px; }
 
 ul li:hover ul {
   display: block; }
