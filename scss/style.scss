@@ -51,16 +51,18 @@ text-align: center;}
 
 .parrafo{background-color: rgba(255, 255, 255, 0.5);
 border-radius: 5px;}
+
     
 .translateParrafo {
-    position: inherit;
+    position: relative;
     margin-left: 20%;
     z-index: 3;}
 .traslateimagen { transform: translateX(40%);
 position: relative;
 z-index: -1;}
 
-@media (max-width: 576px) { .ImagenTamaño{
+@media (max-width: 576px) {
+.ImagenTamaño{
     height: 50%;
     width: 50%;
     object-fit:cover;}
@@ -74,7 +76,9 @@ color: #026873;}
 
 .parrafo{background-color: rgba(255, 255, 255, 0.5);
 border-radius: 5px;
-font-size: 1rem;}
+font-size: 14px;}
+
+.invisible{display: none;}
 
 .traslateimagen { transform: translateX(20%);
 position: relative;

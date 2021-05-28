@@ -51,7 +51,7 @@ nav ul li:hover {
   border-radius: 5px; }
 
 .translateParrafo {
-  position: inherit;
+  position: relative;
   margin-left: 20%;
   z-index: 3; }
 
@@ -75,7 +75,9 @@ nav ul li:hover {
   .parrafo {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-    font-size: 1rem; }
+    font-size: 14px; }
+  .invisible {
+    display: none; }
   .traslateimagen {
     transform: translateX(20%);
     position: relative;
